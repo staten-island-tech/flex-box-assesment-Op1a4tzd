@@ -1,4 +1,19 @@
-body {
-  background-color: red;
+.vlad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 300vh;
+  color: aqua;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-cont {
+  background-color: black;
+  height: 100vh;
 }
 /*# sourceMappingURL=style.css.map */
