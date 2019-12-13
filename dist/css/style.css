@@ -20,7 +20,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 60rem;
+  height: 100vh;
   background-color: #F6F6E9;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -39,7 +39,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 60rem;
+  height: 50vh;
   width: 100%;
   -webkit-box-pack: baseline;
       -ms-flex-pack: baseline;
@@ -98,6 +98,6 @@
 }
 
 .indent {
-  margin: 5rem;
+  margin: 7rem;
 }
 /*# sourceMappingURL=style.css.map */

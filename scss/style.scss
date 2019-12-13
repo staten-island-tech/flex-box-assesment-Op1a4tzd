@@ -1,9 +1,13 @@
+@import "_variables.scss";
+$colors: {
+    primary: #E63946;
+}
 .vlad{
     display: flex;
     text-align: center;
     justify-content: center;
     font-size: 10rem;
-    color: #E63946;
+    $primary-color;
     font-family: 'Josefin Sans', sans-serif;
     text-shadow: 0 1px 0 #ccc,
     0 2px 0 #c9c9c9,
@@ -22,7 +26,7 @@
 .top-cont{
     display: flex;
     flex-direction: column;
-    height: 60rem;
+    height: 100vh;
     background-color: #F6F6E9;
     align-items: center;
     justify-content: center;
@@ -31,7 +35,7 @@
     background-color: rgb(255, 69, 69);
     display: flex;
     flex-direction: column;
-    height: 60rem;
+    height: 50vh;
     width: 100%;
     justify-content: baseline;
     
@@ -76,7 +80,7 @@
     flex-wrap: wrap;
 }
 .indent{
-    margin: 5rem;
+    margin: 7rem;
 }
 html{
   
