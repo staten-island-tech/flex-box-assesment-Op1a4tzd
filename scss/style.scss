@@ -20,41 +20,38 @@
 .row{
     display:flex;
     flex-direction: row;
-    align-items: center;
     z-index: 4;
-    flex-wrap: wrap;
-    flex-grow: 1;
-
+    max-width: 1670vh;
+    max-height: 75vh;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
 }
 .children{
         border: 5px solid rgb(255, 69, 69) ;
         flex-wrap: wrap;
         display:flex;
-        justify-content: space-between;
-        max-width: 10%;
-       
     }
 .top-cont{
         display: flex;
         height: 100vh;
         background-color: $color2;
-        justify-content: center;
         z-index: 1;
         flex-wrap: wrap;
         flex-direction: column;
-        
+        align-items: stretch;
+        align-content: center;
     }
 .col{
     display:flex;
     flex-direction: column;
+    max-height: 20%;
 }
-
-
 .bot-cont{
     background-color: rgb(255, 69, 69);
     display: flex;
-    flex-direction: column;
-    height: 50vh;
+    flex-direction: row;
+    height: 100vh;
     width: 100%;
     justify-content: baseline;
     
