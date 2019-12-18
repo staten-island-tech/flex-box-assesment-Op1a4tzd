@@ -1,4 +1,8 @@
 @import 'vars';
+.body{
+    display: flex;
+    flex-direction: column;
+}
 .vlad{
     text-align: center;
     color: $color1;
@@ -19,45 +23,45 @@
 }
 .row{
     display:flex;
-    flex-direction: row;
     align-items: center;
     z-index: 4;
     flex-wrap: wrap;
-    flex-grow: 1;
+    flex-direction: row;
+    justify-content:center;
+    position:relative;
 
 }
 .children{
         border: 5px solid rgb(255, 69, 69) ;
         flex-wrap: wrap;
         display:flex;
-        justify-content: space-between;
-        max-width: 10%;
-       
+        justify-content: space-around;
+        max-width: 100vh;
     }
 .top-cont{
+        flex-direction: row;    
         display: flex;
         height: 100vh;
         background-color: $color2;
         justify-content: center;
         z-index: 1;
         flex-wrap: wrap;
-        flex-direction: column;
+        position: absolute;
         
     }
 .col{
     display:flex;
     flex-direction: column;
+    
 }
-
 
 .bot-cont{
     background-color: rgb(255, 69, 69);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    height: 50vh;
-    width: 100%;
-    justify-content: baseline;
-    
+    height: 100vh;
+  
 }
 .kgb{
     display: flex;
@@ -100,7 +104,4 @@
 }
 .indent{
     margin: 7rem;
-}
-html{
-  
 }
