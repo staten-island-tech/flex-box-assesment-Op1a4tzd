@@ -41,7 +41,7 @@
         
         
     background-color: $color2;
-        
+    height: 100vh;
         
         
         
@@ -56,9 +56,9 @@
     background-color: rgb(255, 69, 69);
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    height: 100vh;
-  
+    flex-direction: row;
+    height: 120vh;
+   
 }
 .kgb{
     display: flex;
@@ -101,4 +101,21 @@
 }
 .indent{
     margin: 7rem;
+}
+.infant{
+    display:flex;
+    flex-direction: row;
+    max-width: 300vh;
+    justify-content: space-between;
+   
+}
+.fetus{
+    border: 5px solid rgb(255, 69, 69) ;
+    max-width: 33%;
+  
+        
+}
+.max{
+    max-width: 100%;
+    max-height: 100%;
 }
