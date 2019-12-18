@@ -1,4 +1,7 @@
 @import 'vars';
+.body{
+    
+}
 .vlad{
     text-align: center;
     color: $color1;
@@ -18,43 +21,44 @@
     0 20px 20px rgba(0,0,0,.15);
 }
 .row{
-    display:flex;
-    flex-direction: row;
-    z-index: 4;
-    max-width: 1670vh;
-    max-height: 75vh;
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-end;
+    display: flex;
+    justify-content: space-around;
+    
+   
 }
 .children{
-        border: 5px solid rgb(255, 69, 69) ;
-        flex-wrap: wrap;
-        display:flex;
-    }
-.top-cont{
-        display: flex;
-        height: 100vh;
-        background-color: $color2;
-        z-index: 1;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: stretch;
-        align-content: center;
-    }
-.col{
-    display:flex;
-    flex-direction: column;
-    max-height: 20%;
+    border: 5px solid rgb(255, 69, 69) ;
+    max-width: 33%;
+    height: 100%;
+        
+    
+        
+        
 }
+.top-cont{
+        
+          
+        
+        
+    background-color: $color2;
+        
+        
+        
+        
+}
+.col{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
 .bot-cont{
     background-color: rgb(255, 69, 69);
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
     height: 100vh;
-    width: 100%;
-    justify-content: baseline;
-    
+  
 }
 .kgb{
     display: flex;
@@ -97,7 +101,4 @@
 }
 .indent{
     margin: 7rem;
-}
-html{
-  
 }
